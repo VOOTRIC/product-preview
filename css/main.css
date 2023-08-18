@@ -70,5 +70,20 @@ display: grid;
     top: calc(50% - 7px);
     right: 40px;
 }
+
+.button{
+    display: flex;
+    gap: 10px;
+    place-content: center;
+    background-color: var(--dark_cyan);
+    border-radius: 5px;
+}
+
+.button > a{
+    height: 100%;
+    width: 100%;
+}
+
+
 /* 
 <span>%169.99</span> */
