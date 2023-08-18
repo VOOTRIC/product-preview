@@ -20,6 +20,7 @@ background-color: var(--white);
 
 .box1{
 display: grid;
+max-height: 450px;
 }
 
 .images{
@@ -38,7 +39,8 @@ display: grid;
 }
 
 .box2{
-    padding: 30px;
+    max-height: 450px;
+    padding: 0px;
 }
 
 .container-box2{
@@ -72,7 +74,6 @@ display: grid;
 }
 
 .button{
-
     background-color: var(--dark_cyan);
     border-radius: 5px;
 }
