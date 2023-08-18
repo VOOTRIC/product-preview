@@ -4,6 +4,10 @@
     font-size: 14px;
 }
 
+h1{
+color: var(--very_dark_blue);
+}
+
 .container{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -33,15 +37,14 @@ display: grid;
     border-bottom-left-radius: 10px;
 }
 
-
 .box2{
-    padding: 35px;
+    padding: 30px;
 }
 
 
 .container-box2{
     display: grid;
-    row-gap: ;
+    row-gap: 25px;
 }
 
 .perfume-texto{
@@ -50,3 +53,11 @@ display: grid;
     color: var(--dark-grayish-blue);
     font-size: 14px;
 }
+
+.preco{
+    color: var(--dark_cyan);
+    font-size:  2rem;
+}
+
+/* 
+<span>%169.99</span> */
