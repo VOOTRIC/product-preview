@@ -41,7 +41,6 @@ display: grid;
     padding: 30px;
 }
 
-
 .container-box2{
     display: grid;
     row-gap: 25px;
@@ -57,7 +56,19 @@ display: grid;
 .preco{
     color: var(--dark_cyan);
     font-size:  2rem;
+    position: relative;
 }
 
+.preco::after{
+    content: '$169.99';
+    position: absolute;
+    font-size:  14px;
+    color: var(--dark-grayish-blue);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: line-through;
+    font-weight: 500;
+    top: calc(50% - 7px);
+    right: 40px;
+}
 /* 
 <span>%169.99</span> */
