@@ -1,4 +1,9 @@
 
+.text{
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+}
+
 .container{
 display: grid;
 grid-template-columns: 1fr 1fr;
@@ -35,10 +40,13 @@ display: grid;
 
 
 .container-box2{
-    
+    display: grid;
+    row-gap: ;
 }
 
 .perfume-texto{
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
 }
