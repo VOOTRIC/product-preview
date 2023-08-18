@@ -40,7 +40,7 @@ max-height: 450px;
 
 .box2{
     max-height: 450px;
-    padding: 0px;
+    padding: 25px;
 }
 
 .container-box2{
@@ -74,12 +74,13 @@ max-height: 450px;
 }
 
 .button{
+    display: flex;
+    place-content: center;
+    padding: 15px;
     background-color: var(--dark_cyan);
     border-radius: 5px;
 }
 
-.button > a{
-    height: 100%;
-    width: 100%;
-}
+
+
 
