@@ -72,9 +72,7 @@ display: grid;
 }
 
 .button{
-    display: flex;
-    gap: 10px;
-    place-content: center;
+
     background-color: var(--dark_cyan);
     border-radius: 5px;
 }
@@ -84,6 +82,3 @@ display: grid;
     width: 100%;
 }
 
-
-/* 
-<span>%169.99</span> */
