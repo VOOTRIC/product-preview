@@ -103,16 +103,24 @@ body{
 
 .container{
     grid-template-columns: 1fr;
-    max-width: 350px;
+    width: 350px;
+    height: 610px;
     place-self:  center;
-
 }
 
+.box2{
+    
+    padding: 10px 25px;
+}
 
+.container-box2{
+    row-gap: 15px;
+}
 
 .images > img{
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
+    max-height: 100%;
 }
 
 
