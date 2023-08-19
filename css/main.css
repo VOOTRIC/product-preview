@@ -94,22 +94,22 @@ max-height: 450px;
 
 @media(max-width: 700px){
 
-/* 
+
 body{
-    background-image: url('/images/mobile-design.jpg');
+    /* background-image: url('/images/mobile-design.jpg');
     background-repeat: no-repeat;
-    background-position: center;
-} */
+    background-position: center; */
+}
 
 .container{
     grid-template-columns: 1fr;
+    grid-template-rows: 240px 1fr;
     width: 350px;
     height: 610px;
     place-self:  center;
 }
 
-.box2{
-    
+.box2{    
     padding: 10px 25px;
 }
 
@@ -117,11 +117,18 @@ body{
     row-gap: 15px;
 }
 
+.text{
+    max-width: 30ch;
+}
+
 .images > img{
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
-    max-height: 100%;
+    min-width: 100%;
 }
 
+.preco::after{
+    right: 110px;
+}
 
 }
