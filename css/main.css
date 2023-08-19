@@ -85,6 +85,10 @@ max-height: 450px;
     font-size: 14px;
 }
 
+.button:hover{
+    background-color: #1A4031;
+    transition: 400ms;
+}
 
 
 
