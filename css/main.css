@@ -6,6 +6,18 @@
 
 h1{
 color: var(--very_dark_blue);
+max-width: 10ch;
+}
+
+
+.attribution{ 
+    font-size: 11px;
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif;
+}
+.attribution a{
+     color: hsl(228, 45%, 44%);
+
 }
 
 .container{
@@ -124,5 +136,4 @@ max-height: 450px;
 .preco::after{
     right: 110px;
 }
-
 }
